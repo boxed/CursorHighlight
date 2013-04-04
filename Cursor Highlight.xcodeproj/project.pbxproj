@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B598A401431E8AE00BEF131 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B598A3F1431E8AE00BEF131 /* Cocoa.framework */; };
+		5B598A4A1431E8AE00BEF131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B598A481431E8AE00BEF131 /* InfoPlist.strings */; };
+		5B598A4C1431E8AE00BEF131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B598A4B1431E8AE00BEF131 /* main.m */; };
+		5B598A501431E8AE00BEF131 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5B598A4E1431E8AE00BEF131 /* Credits.rtf */; };
+		5B598A531431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B598A521431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m */; };
+		5B598A561431E8AE00BEF131 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B598A541431E8AE00BEF131 /* MainMenu.xib */; };
+		5B8E63FB143B02D400948D79 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8E63FA143B02D400948D79 /* ring.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B598A3B1431E8AE00BEF131 /* Cursor Highlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cursor Highlight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B598A3F1431E8AE00BEF131 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5B598A421431E8AE00BEF131 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5B598A431431E8AE00BEF131 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B598A441431E8AE00BEF131 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B598A471431E8AE00BEF131 /* Cursor Highlight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cursor Highlight-Info.plist"; sourceTree = "<group>"; };
+		5B598A491431E8AE00BEF131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B598A4B1431E8AE00BEF131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B598A4D1431E8AE00BEF131 /* Cursor Highlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cursor Highlight-Prefix.pch"; sourceTree = "<group>"; };
+		5B598A4F1431E8AE00BEF131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5B598A511431E8AE00BEF131 /* Cursor_HighlightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cursor_HighlightAppDelegate.h; sourceTree = "<group>"; };
+		5B598A521431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cursor_HighlightAppDelegate.m; sourceTree = "<group>"; };
+		5B598A551431E8AE00BEF131 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5B8E63FA143B02D400948D79 /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B598A381431E8AD00BEF131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B598A401431E8AE00BEF131 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B598A301431E8AD00BEF131 = {
+			isa = PBXGroup;
+			children = (
+				5B598A451431E8AE00BEF131 /* Cursor Highlight */,
+				5B598A3E1431E8AE00BEF131 /* Frameworks */,
+				5B598A3C1431E8AE00BEF131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B598A3C1431E8AE00BEF131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B598A3B1431E8AE00BEF131 /* Cursor Highlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B598A3E1431E8AE00BEF131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B598A3F1431E8AE00BEF131 /* Cocoa.framework */,
+				5B598A411431E8AE00BEF131 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B598A411431E8AE00BEF131 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B598A421431E8AE00BEF131 /* AppKit.framework */,
+				5B598A431431E8AE00BEF131 /* CoreData.framework */,
+				5B598A441431E8AE00BEF131 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5B598A451431E8AE00BEF131 /* Cursor Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				5B598A511431E8AE00BEF131 /* Cursor_HighlightAppDelegate.h */,
+				5B598A521431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m */,
+				5B598A541431E8AE00BEF131 /* MainMenu.xib */,
+				5B8E63FA143B02D400948D79 /* ring.png */,
+				5B598A461431E8AE00BEF131 /* Supporting Files */,
+			);
+			path = "Cursor Highlight";
+			sourceTree = "<group>";
+		};
+		5B598A461431E8AE00BEF131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B598A471431E8AE00BEF131 /* Cursor Highlight-Info.plist */,
+				5B598A481431E8AE00BEF131 /* InfoPlist.strings */,
+				5B598A4B1431E8AE00BEF131 /* main.m */,
+				5B598A4D1431E8AE00BEF131 /* Cursor Highlight-Prefix.pch */,
+				5B598A4E1431E8AE00BEF131 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B598A3A1431E8AD00BEF131 /* Cursor Highlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B598A591431E8AE00BEF131 /* Build configuration list for PBXNativeTarget "Cursor Highlight" */;
+			buildPhases = (
+				5B598A371431E8AD00BEF131 /* Sources */,
+				5B598A381431E8AD00BEF131 /* Frameworks */,
+				5B598A391431E8AD00BEF131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cursor Highlight";
+			productName = "Cursor Highlight";
+			productReference = 5B598A3B1431E8AE00BEF131 /* Cursor Highlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B598A321431E8AD00BEF131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "TriOptima AB";
+			};
+			buildConfigurationList = 5B598A351431E8AD00BEF131 /* Build configuration list for PBXProject "Cursor Highlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B598A301431E8AD00BEF131;
+			productRefGroup = 5B598A3C1431E8AE00BEF131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B598A3A1431E8AD00BEF131 /* Cursor Highlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B598A391431E8AD00BEF131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B598A4A1431E8AE00BEF131 /* InfoPlist.strings in Resources */,
+				5B598A501431E8AE00BEF131 /* Credits.rtf in Resources */,
+				5B598A561431E8AE00BEF131 /* MainMenu.xib in Resources */,
+				5B8E63FB143B02D400948D79 /* ring.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B598A371431E8AD00BEF131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B598A4C1431E8AE00BEF131 /* main.m in Sources */,
+				5B598A531431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B598A481431E8AE00BEF131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B598A491431E8AE00BEF131 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B598A4E1431E8AE00BEF131 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B598A4F1431E8AE00BEF131 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5B598A541431E8AE00BEF131 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B598A551431E8AE00BEF131 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B598A571431E8AE00BEF131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B598A581431E8AE00BEF131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B598A5A1431E8AE00BEF131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cursor Highlight/Cursor Highlight-Prefix.pch";
+				INFOPLIST_FILE = "Cursor Highlight/Cursor Highlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B598A5B1431E8AE00BEF131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cursor Highlight/Cursor Highlight-Prefix.pch";
+				INFOPLIST_FILE = "Cursor Highlight/Cursor Highlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B598A351431E8AD00BEF131 /* Build configuration list for PBXProject "Cursor Highlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B598A571431E8AE00BEF131 /* Debug */,
+				5B598A581431E8AE00BEF131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B598A591431E8AE00BEF131 /* Build configuration list for PBXNativeTarget "Cursor Highlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B598A5A1431E8AE00BEF131 /* Debug */,
+				5B598A5B1431E8AE00BEF131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B598A321431E8AD00BEF131 /* Project object */;
+}
