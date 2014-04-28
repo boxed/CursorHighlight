@@ -131,7 +131,7 @@
 		5B598A321431E8AD00BEF131 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "TriOptima AB";
+				ORGANIZATIONNAME = "Kodare";
 			};
 			buildConfigurationList = 5B598A351431E8AD00BEF131 /* Build configuration list for PBXProject "Cursor Highlight" */;
 			compatibilityVersion = "Xcode 3.2";

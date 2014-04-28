@@ -1,11 +1,3 @@
-//
-//  Cursor_HighlightAppDelegate.m
-//  Cursor Highlight
-//
-//  Created by Anders Hovmöller on 2011-09-27.
-//  Copyright 2011 TriOptima AB. All rights reserved.
-//
-
 #import "Cursor_HighlightAppDelegate.h"
 
 @implementation Cursor_HighlightAppDelegate
