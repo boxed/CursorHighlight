@@ -10,7 +10,6 @@
 		5B598A401431E8AE00BEF131 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B598A3F1431E8AE00BEF131 /* Cocoa.framework */; };
 		5B598A4A1431E8AE00BEF131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B598A481431E8AE00BEF131 /* InfoPlist.strings */; };
 		5B598A4C1431E8AE00BEF131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B598A4B1431E8AE00BEF131 /* main.m */; };
-		5B598A501431E8AE00BEF131 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5B598A4E1431E8AE00BEF131 /* Credits.rtf */; };
 		5B598A531431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B598A521431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m */; };
 		5B598A561431E8AE00BEF131 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B598A541431E8AE00BEF131 /* MainMenu.xib */; };
 		5B8E63FB143B02D400948D79 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8E63FA143B02D400948D79 /* ring.png */; };
@@ -26,7 +25,6 @@
 		5B598A491431E8AE00BEF131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B598A4B1431E8AE00BEF131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B598A4D1431E8AE00BEF131 /* Cursor Highlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cursor Highlight-Prefix.pch"; sourceTree = "<group>"; };
-		5B598A4F1431E8AE00BEF131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5B598A511431E8AE00BEF131 /* Cursor_HighlightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cursor_HighlightAppDelegate.h; sourceTree = "<group>"; };
 		5B598A521431E8AE00BEF131 /* Cursor_HighlightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cursor_HighlightAppDelegate.m; sourceTree = "<group>"; };
 		5B598A551431E8AE00BEF131 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				5B598A481431E8AE00BEF131 /* InfoPlist.strings */,
 				5B598A4B1431E8AE00BEF131 /* main.m */,
 				5B598A4D1431E8AE00BEF131 /* Cursor Highlight-Prefix.pch */,
-				5B598A4E1431E8AE00BEF131 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,7 +128,7 @@
 		5B598A321431E8AD00BEF131 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Kodare";
+				ORGANIZATIONNAME = Kodare;
 			};
 			buildConfigurationList = 5B598A351431E8AD00BEF131 /* Build configuration list for PBXProject "Cursor Highlight" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -156,7 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B598A4A1431E8AE00BEF131 /* InfoPlist.strings in Resources */,
-				5B598A501431E8AE00BEF131 /* Credits.rtf in Resources */,
 				5B598A561431E8AE00BEF131 /* MainMenu.xib in Resources */,
 				5B8E63FB143B02D400948D79 /* ring.png in Resources */,
 			);
@@ -183,14 +179,6 @@
 				5B598A491431E8AE00BEF131 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5B598A4E1431E8AE00BEF131 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B598A4F1431E8AE00BEF131 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		5B598A541431E8AE00BEF131 /* MainMenu.xib */ = {
